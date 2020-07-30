@@ -1,0 +1,29 @@
+footer {
+  background-color: #1b3c59;
+  .container {
+    padding: 60px 0;
+
+    color: white;
+
+    li {
+      list-style-type: none;
+    }
+    .footer-section1{
+      display: flex;
+      justify-content: space-between;
+      .footer-info{
+        img {
+          max-height: 65px;
+        }
+      }
+      .footer-link{
+        text-align: right;
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

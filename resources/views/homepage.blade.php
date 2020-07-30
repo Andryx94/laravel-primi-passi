@@ -1,17 +1,25 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Boolean</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-  </head>
-  <body>
+@extends('layouts.app')
+@section('section')
 
-    @include('partials.header')
+<main>
+  <section class="diventaSviluppatore">
+    <div class="container">
+      <div class="dS-text">
+        <h1>Diventa Sviluppatore Web</h1>
+        <h2>Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</h2>
+        <ul>
+          <li>6 mesi di corso intensivo online in diretta</li>
+          <li>Nessuna competenza di programmazione richiesta</li>
+          <li>Siamo certi del tuo successo, altrimenti ti rimborsiamo</li>
+        </ul>
+      </div>
 
-    <h1>Main</h1>
+      <div class="dS-img">
+        <img src="https://www.boolean.careers/images/homepage/pc-black-gif.gif" alt="">
+      </div>
 
-    @include('partials.footer')
+    </div>
+  </section>
+</main>
 
-  </body>
-</html>
+@endsection

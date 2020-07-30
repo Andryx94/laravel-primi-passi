@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  div {
+    img {
+      max-height: 60px;
+    }
+  }
+  nav {
+    align-self: center;
+    li {
+      display: inline-block;
+      text-transform: uppercase;
+      padding-left: 80px;
+    }
+
+    #candidate {
+      padding: 10px 20px;
+      border-radius: 10px;
+      background-color: #61ce4e;
+      color: white;
+    }
+  }
+}

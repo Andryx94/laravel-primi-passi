@@ -1,3 +1,5 @@
-h1 {
-  color: red;
-}
+@import 'partials/_commons.scss';
+@import 'partials/_header.scss';
+@import 'partials/_homepage.scss';
+@import 'partials/_privacy-policy.scss';
+@import 'partials/_footer.scss';

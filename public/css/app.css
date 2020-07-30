@@ -1,4 +1,92 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+header div img {
+  max-height: 60px;
+}
+
+header nav {
+  align-self: center;
+}
+
+header nav li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-left: 80px;
+}
+
+header nav #candidate {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #61ce4e;
+  color: white;
+}
+
+main .diventaSviluppatore .container {
+  display: flex;
+  justify-content: center;
+}
+
+section h1 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+section h2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+section ul {
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #1b3c59;
+}
+
+footer .container {
+  padding: 60px 0;
+  color: white;
+}
+
+footer .container li {
+  list-style-type: none;
+}
+
+footer .container .footer-section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .footer-section1 .footer-info img {
+  max-height: 65px;
+}
+
+footer .container .footer-section1 .footer-link {
+  text-align: right;
+}
+
+footer .container .footer-section1 .footer-link li a {
+  color: white;
 }
 
