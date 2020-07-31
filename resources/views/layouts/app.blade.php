@@ -10,7 +10,11 @@
 
     @include('partials.header')
 
-    @yield('section')
+
+    <main>
+      @yield('section')
+    </main>
+
 
     @include('partials.footer')
 

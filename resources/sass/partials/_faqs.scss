@@ -1,0 +1,13 @@
+.DomandeFrequenti {
+  .faqs {
+    display: flex;
+    padding: 20px 0;
+    .before {
+      background-color: #e8ebf1;
+    }
+    .after {
+      background-color: #1b3c59;
+      color: #e8ebf1
+    }
+  }
+}

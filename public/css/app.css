@@ -41,23 +41,37 @@ header nav #candidate {
   color: white;
 }
 
-main .diventaSviluppatore .container {
+.diventaSviluppatore .container {
   display: flex;
   justify-content: center;
 }
 
-section h1 {
+.privacy-policy .container h1 {
   font-size: 30px;
   padding-bottom: 30px;
 }
 
-section h2 {
+.privacy-policy .container h2 {
   padding-top: 30px;
   padding-bottom: 15px;
 }
 
-section ul {
+.privacy-policy .container ul {
   padding-bottom: 30px;
+}
+
+.DomandeFrequenti .faqs {
+  display: flex;
+  padding: 20px 0;
+}
+
+.DomandeFrequenti .faqs .before {
+  background-color: #e8ebf1;
+}
+
+.DomandeFrequenti .faqs .after {
+  background-color: #1b3c59;
+  color: #e8ebf1;
 }
 
 footer {

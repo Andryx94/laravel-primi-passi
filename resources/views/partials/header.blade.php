@@ -6,7 +6,8 @@
   <nav class="header-nav">
     <ul>
       <li><a href="{{ url('/') }}">Home</a></li>
-      <li><a href="{{ url('/privacy-policy') }}">Policy</a></li>
+      <li><a href="{{ url('/privacy-policy') }}">Privacy-Policy</a></li>
+      <li><a href="{{ url('/faq') }}">Domande Frequenti</a></li>
       <li><a href="#" id="candidate">Candidati ora</a></li>
     </ul>
   </nav>

@@ -13,8 +13,8 @@
       <div class="footer-link">
         <ul>
           <li><a href="#">Lezione gratuita</a></li>
-          <li><a href="#">Domande frequenti</a></li>
-          <li><a href="#">Privacy policy</a></li>
+          <li><a href="href="{{ url('/faq') }}"">Domande frequenti</a></li>
+          <li><a href="href="{{ url('/privacy-policy') }}"">Privacy policy</a></li>
           <li><a href="#">Lavora con noi</a></li>
         </ul>
       </div>
